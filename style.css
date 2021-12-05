@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    ;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 10px;
+}
+header nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.bottom-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    color: #f9faf8;
+}
+.bottom-header-left {
+    width: 55%;
+}
+.bottom-header img {
+    border: 1px solid red;
+    max-width: 200px;
+    max-height: 200px;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+button {
+    border-radius: 15%;
+    padding: 8px 15px;
+}
+button, .call-to-action {
+    background-color: #3882f6;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%vw;
+    gap: 8px;
+}
+.card {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.card img {
+    max-width: 200px;
+    max-height: 150px;
+}
+.card p {
+    text-align: center;
+}
+.infomation {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+.infomation h2 {
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+}
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.hero {
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+.justify-end {
+    display:flex;
+    justify-content: flex-end;
+    margin:15px 10px;
+}
+.call-to-action {
+    width: 80%;
+    padding: 15px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-to-action button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
